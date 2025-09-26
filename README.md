@@ -1,12 +1,12 @@
 # **Dak Madad – AI-Powered Postal Optimization System**  
 
-Dak Madad is an **AI-powered web application** designed to optimize postal operations by reducing undeliverable posts, improving address accuracy, and streamlining delivery logistics.  
+Dak Madad is an *AI-powered web application* designed to optimize postal operations by reducing undeliverable posts, improving address accuracy, and streamlining delivery logistics.  
 
-It follows the **EICGO** approach—**Extraction, Identification, Correction, Generation, and Optimization**—leveraging **Azure OCR, Large Language Models (LLMs), and Google Maps APIs** to digitize address data, generate optimal delivery routes, and contribute to **India’s upcoming DigiPin addressing system**.  
+IT follows the **EICGO** algorithm - **Extraction, Identification, Correction, Generation, and Optimization** - leveraging Azure OCR, Large Language Models (LLMs), and Google Maps APIs to digitize address data, generate optimal delivery routes, and contribute to *India’s upcoming DigiPin addressing system*. 
 
 ---
 
-## **Problem Statement**  
+## **Problems Identified**  
 
 ### **Challenges Faced by Users**  
 - Difficulty in identifying the correct **PIN code** and locating **nearby post offices**  
@@ -26,7 +26,7 @@ Dak Madad provides an **AI-powered solution** that integrates **automated addres
 
 <img width="1800" height="1000" alt="Image" src="https://github.com/user-attachments/assets/052a5514-b6b0-4c53-a85d-bca05daa9bb4" />
 
-### **EICGO Approach**  
+### **EICGO Algorithm**  
 
 1. **Extraction** – Uses **Azure Document OCR** (98% accuracy) to extract details from handwritten and printed postal articles  
 2. **Identification** – A **Large Language Model (LLM)** refines extracted details, improving accuracy to **99%**  
@@ -35,7 +35,7 @@ Dak Madad provides an **AI-powered solution** that integrates **automated addres
 5. **Optimization** – A dynamic feedback system allows receivers to **update addresses**, helping create a **DigiPin address database**  
 
 ---
-
+https://github.com/user-attachments/assets/4dab4d66-f083-4837-9549-324a332449c0
 ## **Key Features of Dak Madad**  
 
 ### **AI-Based Address Extraction and Correction**  
@@ -123,13 +123,13 @@ Dak Madad provides an **AI-powered solution** that integrates **automated addres
 - Dak Madad is positioned to **reduce operational inefficiencies**, **enhance customer satisfaction**, and **contribute to India’s digital addressing transformation**  
 - **India Post reported losses of ₹15,000 crore in FY19** (Financial Express, 2019). Dak Madad aims to **reduce losses through AI-powered automation**  
 - **70,000+ smartphones have been distributed to postmen in urban areas and over 1 lakh in rural areas**, enabling real-time delivery updates  
-- The **“Bring Your Own Device” (BYOD) scheme** allows delivery staff to use their personal devices for status updates  
+- The *“Bring Your Own Device” (BYOD) scheme* allows delivery staff to use their personal devices for status updates  
 
 ---
 
 ## **Acknowledgments**  
 
-Dak Madad was developed as part of **Smart India Hackathon (SIH) 2024**, in collaboration with:  
+Dak Madad was developed in collaboration with:  
 
 - **Ministry of Communications, Department of Posts, India**  
 - **Post Office Officials and Mentors**  

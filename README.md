@@ -24,6 +24,8 @@ It follows the **EICGO** approach—**Extraction, Identification, Correction, Ge
 
 Dak Madad provides an **AI-powered solution** that integrates **automated address extraction, error correction, and delivery route optimization**.  
 
+<img width="3188" height="1928" alt="Image" src="https://github.com/user-attachments/assets/052a5514-b6b0-4c53-a85d-bca05daa9bb4" />
+
 ### **EICGO Approach**  
 
 1. **Extraction** – Uses **Azure Document OCR** (98% accuracy) to extract details from handwritten and printed postal articles  

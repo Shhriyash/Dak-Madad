@@ -24,7 +24,7 @@ It follows the **EICGO** approach—**Extraction, Identification, Correction, Ge
 
 Dak Madad provides an **AI-powered solution** that integrates **automated address extraction, error correction, and delivery route optimization**.  
 
-<img width="3188" height="1928" alt="Image" src="https://github.com/user-attachments/assets/052a5514-b6b0-4c53-a85d-bca05daa9bb4" />
+<img width="1800" height="1000" alt="Image" src="https://github.com/user-attachments/assets/052a5514-b6b0-4c53-a85d-bca05daa9bb4" />
 
 ### **EICGO Approach**  
 
@@ -61,7 +61,9 @@ Dak Madad provides an **AI-powered solution** that integrates **automated addres
 
 ### **Customer Awareness and Education**  
 - A dedicated **Awareness Section** educates users on writing correct **addresses and PIN codes**  
-- Promotes the adoption of **DigiPin**, helping transition to a **digital postal network**  
+- Promotes the adoption of **DigiPin**, helping transition to a **digital postal network**
+
+<img width="1800" height="900" alt="Image" src="https://github.com/user-attachments/assets/b6e39502-94c2-4ee8-9ea2-d7ac703b1016" />
 
 ---
 

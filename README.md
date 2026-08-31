@@ -1,4 +1,4 @@
-# **Dak Madad – AI-Powered Postal Optimization System**  
+# **Dak Madad - AI-Powered Postal Optimization System**  
 
 Dak Madad is an *AI-powered web application* designed to optimize postal operations by reducing undeliverable posts, improving address accuracy, and streamlining delivery logistics.  
 
@@ -28,11 +28,11 @@ Dak Madad provides an **AI-powered solution** that integrates **automated addres
 
 ### **EICGO Algorithm**  
 
-1. **Extraction** – Uses **Azure Document OCR** (98% accuracy) to extract details from handwritten and printed postal articles  
-2. **Identification** – A **Large Language Model (LLM)** refines extracted details, improving accuracy to **99%**  
-3. **Correction** – **Google Maps APIs** (Places, Geolocation, Directions) correct incorrect addresses and PIN codes  
-4. **Generation** – Generates a **multifunctional QR code** containing **post ID, PIN code, optimized route, and feedback functionality**  
-5. **Optimization** – A dynamic feedback system allows receivers to **update addresses**, helping create a **DigiPin address database**  
+1. **Extraction** - Uses **Azure Document OCR** (98% accuracy) to extract details from handwritten and printed postal articles  
+2. **Identification** - A **Large Language Model (LLM)** refines extracted details, improving accuracy to **99%**  
+3. **Correction** - **Google Maps APIs** (Places, Geolocation, Directions) correct incorrect addresses and PIN codes  
+4. **Generation** - Generates a **multifunctional QR code** containing **post ID, PIN code, optimized route, and feedback functionality**  
+5. **Optimization** - A dynamic feedback system allows receivers to **update addresses**, helping create a **DigiPin address database**  
 
 ---
 https://github.com/user-attachments/assets/4dab4d66-f083-4837-9549-324a332449c0
@@ -69,24 +69,24 @@ https://github.com/user-attachments/assets/4dab4d66-f083-4837-9549-324a332449c0
 
 ## **Key Benefits of Dak Madad**  
 
-- **Time and Resource Efficiency** – AI-based automation and optimized routes ensure timely deliveries and reduce wasted resources  
-- **Enhanced User Experience** – A **multilingual, user-friendly interface** ensures accessibility for both customers and postal employees  
-- **Data-Driven Improvements** – The **feedback-enabled QR system** helps build a **digital address database (DigiPin)**  
-- **Seamless Integration** – Works with existing infrastructure; postal offices already have scanners for parcel scanning and printers for **QR code generation**  
-- **Cost Reduction** – Decreases misrouted mail, reducing the **operational costs** associated with undeliverable posts  
-- **Customer Trust and Transparency** – Accurate mail delivery enhances **public confidence in postal services**  
+- **Time and Resource Efficiency** - AI-based automation and optimized routes ensure timely deliveries and reduce wasted resources  
+- **Enhanced User Experience** - A **multilingual, user-friendly interface** ensures accessibility for both customers and postal employees  
+- **Data-Driven Improvements** - The **feedback-enabled QR system** helps build a **digital address database (DigiPin)**  
+- **Seamless Integration** - Works with existing infrastructure; postal offices already have scanners for parcel scanning and printers for **QR code generation**  
+- **Cost Reduction** - Decreases misrouted mail, reducing the **operational costs** associated with undeliverable posts  
+- **Customer Trust and Transparency** - Accurate mail delivery enhances **public confidence in postal services**  
 
 ---
 
 ## **Limitations and Strategy to Overcome Them**  
 
 ### **Current Challenges:**  
-- **Dependency on Internet** – Some rural areas **lack connectivity**, affecting adoption  
-- **User Adaptation Challenges** – Postal staff and customers **may take time** to adapt to the digital system  
+- **Dependency on Internet** - Some rural areas **lack connectivity**, affecting adoption  
+- **User Adaptation Challenges** - Postal staff and customers **may take time** to adapt to the digital system  
 
 ### **Proposed Solutions:**  
 - **Training programs** for postal staff and customers, particularly in rural areas  
-- **Government-supported digital literacy initiatives** (e.g., **PMGDISHA** – Pradhan Mantri Gramin Digital Saksharta Abhiyaan)  
+- **Government-supported digital literacy initiatives** (e.g., **PMGDISHA** - Pradhan Mantri Gramin Digital Saksharta Abhiyaan)  
 
 ---
 

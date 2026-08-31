@@ -12,6 +12,7 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:location/location.dart';
 import 'package:provider/provider.dart';
 import 'package:http/http.dart' as http;
+import 'package:dakmadad/config/api_keys.dart';
 
 class OptimizedRoutePage extends StatefulWidget {
   const OptimizedRoutePage({super.key});
@@ -129,7 +130,7 @@ class _OptimizedRoutePageState extends State<OptimizedRoutePage> {
 
       String origin = '${location.latitude},${location.longitude}';
       String url =
-          'https://maps.googleapis.com/maps/api/directions/json?origin=$origin&destination=$destination&mode=driving&key=REDACTED_ROTATED_KEY';
+          'https://maps.googleapis.com/maps/api/directions/json?origin=$origin&destination=$destination&mode=driving&key=${ApiKeys.googleMaps}';
 
       if (waypointsParam.isNotEmpty) {
         url += '&waypoints=optimize:true|$waypointsParam';

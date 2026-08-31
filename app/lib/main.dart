@@ -11,12 +11,13 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'core/theme/app_theme.dart';
 import 'features/auth/domain/services/auth_service.dart';
 import 'features/auth/presentation/screens/splash_screen.dart';
+import 'config/api_keys.dart';
 
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  Gemini.init(apiKey: 'REDACTED_ROTATED_KEY');
+  Gemini.init(apiKey: ApiKeys.gemini);
   runApp(const MyApp());
 }
 

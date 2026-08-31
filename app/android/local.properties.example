@@ -1,0 +1,4 @@
+# Copy to local.properties (untracked) and fill in.
+# Flutter writes sdk.dir and flutter.sdk here automatically.
+
+MAPS_API_KEY=your_android_maps_sdk_key

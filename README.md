@@ -141,4 +141,37 @@ Dak Madad was developed in collaboration with:
 
 Dak Madad represents a **significant step toward modernizing India’s postal system**. By integrating **AI-driven automation, address standardization, and delivery route optimization**, the system not only enhances operational efficiency but also lays the groundwork for **DigiPin**, India’s future digital addressing infrastructure.  
 
-The seamless integration of **AI, geolocation services, and user feedback loops** ensures **scalability, efficiency, and long-term adoption**, making Dak Madad a **transformative solution** for India's postal network.  
+The seamless integration of **AI, geolocation services, and user feedback loops** ensures **scalability, efficiency, and long-term adoption**, making Dak Madad a **transformative solution** for India's postal network.
+
+---
+
+## Configuration
+
+No keys are committed to this repo. Each part of the system reads its own credentials at run time or build time.
+
+**Python pipeline (`EICGO_model/`)**
+
+```bash
+cp EICGO_model/.env.example EICGO_model/.env
+# fill in Azure OCR, Groq, Twilio, Firebase and Google Maps values
+```
+
+`FIREBASE_CREDENTIALS` points at a Firebase Admin service account JSON file. Keep that file outside the repo.
+
+**Flutter app (`app/`)**
+
+The Gemini and Google Maps keys are passed at build time:
+
+```bash
+flutter run \
+  --dart-define=GEMINI_API_KEY=your_key \
+  --dart-define=GOOGLE_MAPS_API_KEY=your_key
+```
+
+The Android Maps SDK key is separate, since it is read by the manifest rather than by Dart. Put it in `android/local.properties`, which is untracked:
+
+```properties
+MAPS_API_KEY=your_android_maps_sdk_key
+```
+
+Restrict every Google key in the Cloud Console. The Android key should be limited by package name and SHA-1, and the server side keys by API and IP.

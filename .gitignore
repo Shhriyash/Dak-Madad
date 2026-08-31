@@ -44,6 +44,8 @@ env/
 .packages
 app/build/
 app/.dart_tool/
+local.properties
+**/local.properties
 
 # Logs and runtime
 *.log

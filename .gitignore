@@ -12,6 +12,12 @@ key.txt
 *.key
 *.p12
 
+# Firebase config (generated per project, supply your own)
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+!*.example
+
 # Node
 node_modules/
 npm-debug.log*

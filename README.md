@@ -174,4 +174,12 @@ The Android Maps SDK key is separate, since it is read by the manifest rather th
 MAPS_API_KEY=your_android_maps_sdk_key
 ```
 
+**Firebase config (`app/`)**
+
+`google-services.json` and `firebase_options.dart` are generated per Firebase project and are not committed. Either run `flutterfire configure` against your own project, or copy the examples and fill them in:
+
+```bash
+cp app/android/app/google-services.json.example app/android/app/google-services.json
+cp app/lib/firebase_options.dart.example app/lib/firebase_options.dart
+```
 Restrict every Google key in the Cloud Console. The Android key should be limited by package name and SHA-1, and the server side keys by API and IP.

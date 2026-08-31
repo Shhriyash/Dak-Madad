@@ -1,0 +1,56 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.env
+credentials.json
+key.txt
+*serviceaccount*.json
+*service-account*.json
+*firebase-adminsdk*.json
+*.pem
+*.key
+*.p12
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+next-env.d.ts
+
+# Build output
+build/
+dist/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+app/build/
+app/.dart_tool/
+
+# Logs and runtime
+*.log
+logs/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
